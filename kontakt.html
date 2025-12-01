@@ -17,7 +17,8 @@
     </head>
     <body>
  <img src="images/logo.png" alt="logo" class="shadow-xl border-4 border-white rounded-full w-1/50 mx-auto" style="width:30%; height:30%;" >
-        <nav class=" text-xl my-5 font-semibold text-center">
+        <!--navigacijski izbornik-->
+ <nav class=" text-xl my-5 font-semibold text-center">
             <a href="index.html">O nama</a> |
             <a href="gdje_smo.html">Gdje smo</a> |
             <a href="nasi_psi.html">Naši psi</a> |
@@ -26,6 +27,18 @@
         </nav>
         <div class=" text-xl my-5 font-semibold text-center">
             <h1>Kontakt</h1>
+            <form>
+            <label>Ime: </label>
+            <input type="text" maxlength="50"> <br>
+            <label>Prezime: </label>
+            <input type="text" maxlength="50"><br>
+            <label>Email:</label>
+            <input type="email"> <br>
+            <label>Poruka:</label>
+            <textarea maxlength="1000"></textarea><br>
+            <button type="submit">Pošaljite</button>
+            </form>
+
         </div>
     </body>
 </html>
